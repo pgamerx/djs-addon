@@ -6,7 +6,7 @@ const YouTube = require("discord-youtube-api");
  * @param {import('../index').ytSearchOptions} options
  */
 
-async function reddit(message, options = {}) {
+async function ytSearch(message, options = {}) {
 const youtube = new YouTube(options.api_key);
 if(!message) throw new Error("Message object is missing.")
 if(!options.api_key) throw new Error("Youtube API key is missing.")
@@ -32,4 +32,4 @@ message/channel.send(embed)
 
 
 
-module.exports = reddit;
+module.exports = ytSearch;
