@@ -23,8 +23,5 @@ developer: 'PGamerX' // Developer (your) name.
 
 ### Options guide
 
-| Name | Type | Required | Default |
-| ---- | ---- | -------- | ------- |
-|      |      |          |         |
-|      |      |          |         |
-|      |      |          |         |
+<table><thead><tr><th>Name</th><th>Type</th><th data-type="checkbox">Required</th><th>Default</th></tr></thead><tbody><tr><td>api_key</td><td></td><td>true</td><td></td></tr><tr><td>channels</td><td></td><td>true</td><td></td></tr><tr><td>name</td><td></td><td>false</td><td></td></tr><tr><td>age</td><td></td><td>false</td><td></td></tr><tr><td>d</td><td></td><td>false</td><td></td></tr></tbody></table>
+
