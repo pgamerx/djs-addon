@@ -1,2 +1,4 @@
 # djs-addon
-@pgamerx/djs-addon is a npm package that allows you to easily add fun features using DiscordJS
+![npm (scoped)](https://img.shields.io/npm/v/@pgamerx/djs-addon?label=Version&logo=npm)
+![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@pgamerx/djs-addon?color=blue&label=Size&logo=npm)
+
