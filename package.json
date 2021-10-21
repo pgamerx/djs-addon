@@ -24,8 +24,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/pgamerx/djs-addon.git"
+    "url": "git://github.com/pgamerx/djs-addon.git"
   },
   "devDependencies": {
     "typescript": "^4.4.4"
