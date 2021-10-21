@@ -1,6 +1,10 @@
 /** This isn't my own, This was taken from the internet and tampered with 
  * (Check Credits/inspirations for more info)
 */
+/**
+ * 
+ * Re-coding it myself, Please avoid using till that,
+ */
 const Discord = require("discord.js");
 
 const math = require("mathjs");
