@@ -2,15 +2,20 @@
  * (Check Credits/inspirations for more info)
 */
 
+
+/*
+
 const Discord = require("discord.js");
 const parse = new (require("rss-parser"))();
 
 /**
  * @param {Discord.Client} client
- * @param {import('../index').DB} db
- * @param {import('../index').ytNotifyOptions} options
+ * @param {import('../../index').DB} db
+ * @param {import('../../index').ytNotifyOptions} options
  */
 
+
+/*
 async function ytNotify(client, db, options = []) {
   let startAt = options.startAt;
   let chid = options.channel;
@@ -100,3 +105,5 @@ async function ytNotify(client, db, options = []) {
   }
 }
 module.exports = ytNotify;
+
+*/

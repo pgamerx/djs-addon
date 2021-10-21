@@ -1,3 +1,4 @@
+/* 
 const Discord = require("discord.js");
 const { join } = require("path");
 
@@ -15,7 +16,10 @@ registerFont(join(__dirname, "Fonts", "Poppins-SemiBold.ttf"), {
  * @param {import('../index').rankCard_options} options
  */
 
-async function rankCard( message, options = []) {
+
+/*
+
+ async function rankCard( message, options = []) {
   try {
     function shortener(count) {
       const COUNT_ABBRS = ["", "k", "M", "T"];
@@ -240,3 +244,4 @@ async function rankCard( message, options = []) {
 }
 
 module.exports = rankCard;
+*/
