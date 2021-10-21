@@ -1,6 +1,6 @@
 {
   "name": "@pgamerx/djs-addon",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is a npm package that allows you to easily add fun features using DiscordJS",
   "main": "index.js",
   "scripts": {
