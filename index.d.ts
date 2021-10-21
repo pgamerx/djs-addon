@@ -75,51 +75,11 @@ export type calc_options = {
   embedFooter?: string;
 };
 
-export type rankCard_options = {
-  /**Provide a member into the system (Identifies the member automatically if not provided) */
-  member?: User;
-  level: number;
-  currentXP: number;
-  neededXP: number;
-  rank: number;
-  /** Slash support */
-  slash?: boolean;
-  /** Background of the rank card */
-  background?: string;
-};
-
-export type ytNotifyOptions = (
-  | {
-      /** Youtube channel ID from the URL */
-      ytID: string;
-    }
-  | {
-      /** Youtube channel URL */
-      ytURL: string;
-    }
-) & {
-  /** Discord channel ID to post message there */
-  channel: string;
-  /** This checks if the video is posted after starting the bot. */
-  startAt: Date;
-  /** Message sent when the user posts a video */
-  msg_to_be_sent?: string;
-};
-
-export declare function rankCard(
-  message: Message,
-  options?: rankCard_options
-): Promise<void>;
-
 export declare function ytSearch(
   message: Message,
   options?: ytSearchOptions
 ): Promise<void>;
-export declare function ytNotify(
-  client: Client,
-  db: DB,
-  options?: ytNotifyOptions
-): Promise<void>;
+
 export declare function calculator(
   interaction: CommandInteraction,
   options?: calc_options

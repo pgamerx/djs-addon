@@ -1,5 +1,5 @@
 /** This code is actually OC, believe it or not */
-const Discord = require("discord.js");
+const Discord = require("discord.js")
 const randomPuppy = require("random-puppy")
 /**
  * @param {Discord.Message} message
@@ -13,7 +13,7 @@ async function reddit(message, options = {}) {
   if(!options.sub_reddit){
        throw new Error("Missing paremters or incorrect method of using this function")
   }
-  if(!options.sub_reddit)
+  if(!options.sub_reddit) return 
   const url = randomPuppy(options.sub_reddit)
 
   const embed = new Discord.MessageEmbed()

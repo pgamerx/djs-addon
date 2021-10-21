@@ -27,7 +27,7 @@ async function chatbot(client, message, options = {}) {
   const animatedEmoteRegex = /<a:.+:(\d+)>/gm
 
   const daemoji = message.content.match(hasEmoteRegex);
-
+    let input = message.content
     input = input
       .replace(emoteRegex.exec(daemoji), "")
       .replace(animatedEmoteRegex.exec(daemoji), "");
@@ -35,7 +35,7 @@ async function chatbot(client, message, options = {}) {
 
     
     const jsonRes = await fetch(
-      `https://api.pgamerx.com/v5/chatbot?message=${input}&server=primary&bot_name=${botName}&bot_age=${age}&bot_master=${developer}`,{
+      `https://api.pgamerx.com/v5/normal/ai?message=${input}&server=primary&bot_name=${botName}&bot_age=${age}&bot_master=${developer}`,{
           headers: {"Authorization": options.api_key}
       }
     ).then((res) => res.json()) // Parsing the JSON
