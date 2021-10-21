@@ -4,6 +4,8 @@ description: This is documentation for Calculator function
 
 # Calculator
 
+![This is how this function will look like.](<../.gitbook/assets/Screenshot 2021-10-21 at 6.13.03 PM.png>)
+
 ### Example
 
 ```javascript

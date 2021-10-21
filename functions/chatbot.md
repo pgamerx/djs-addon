@@ -4,6 +4,8 @@ description: This is documentation for Chatbot function.
 
 # Chatbot
 
+![This is how it will look like](<../.gitbook/assets/Screenshot 2021-10-21 at 6.12.01 PM.png>)
+
 ### Example
 
 ```javascript
