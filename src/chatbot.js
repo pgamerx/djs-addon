@@ -1,5 +1,5 @@
 /** This code is actually OC, believe it or not */
-
+/** Hey Rahuletto, this is actually OC, I just saw your code structure and the regex. I used different API as well  */
 const Discord = require("discord.js");
 const fetch = require("node-fetch");
 
@@ -19,6 +19,8 @@ async function chatbot(client, message, options = {}) {
     const botName = options.name ?? client.user.username,
       developer = options.developer ?? "PGamerX",
       age = options.age ?? "8"
+
+/*
       ranges = [
         "\ud83c[\udf00-\udfff]", // U+1F300 to U+1F3FF
         "\ud83d[\udc00-\ude4f]", // U+1F400 to U+1F64F
@@ -39,6 +41,9 @@ async function chatbot(client, message, options = {}) {
       .replace(emoteRegex.exec(emoj), "")
       .replace(animatedEmoteRegex.exec(emoj), "");
 
+
+      I will re-write this if Rahuletto doesn't want me to use this.
+*/
     
     const jsonRes = await fetch(
       `https://api.pgamerx.com/v5/chatbot?message=${input}&server=primary&bot_name=${botName}&bot_age=${age}&bot_master=${developer}`,{
