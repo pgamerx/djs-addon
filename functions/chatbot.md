@@ -23,5 +23,5 @@ developer: 'PGamerX' // Developer (your) name.
 
 ### Options guide
 
-<table><thead><tr><th>Name</th><th>Type</th><th data-type="checkbox">Required</th><th>Default</th></tr></thead><tbody><tr><td>api_key</td><td></td><td>true</td><td></td></tr><tr><td>channels</td><td></td><td>true</td><td></td></tr><tr><td>name</td><td></td><td>false</td><td></td></tr><tr><td>age</td><td></td><td>false</td><td></td></tr><tr><td>d</td><td></td><td>false</td><td></td></tr></tbody></table>
+<table><thead><tr><th>Name</th><th>Type</th><th data-type="checkbox">Required</th><th>Default</th></tr></thead><tbody><tr><td>api_key</td><td>String</td><td>true</td><td>NA</td></tr><tr><td>channels</td><td>StringArray</td><td>true</td><td>NA</td></tr><tr><td>name</td><td>String</td><td>false</td><td>Your bot's name</td></tr><tr><td>age</td><td>String (yea I know)</td><td>false</td><td>8</td></tr><tr><td>developer</td><td>String</td><td>false</td><td>PGa</td></tr></tbody></table>
 

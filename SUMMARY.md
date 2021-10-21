@@ -2,6 +2,7 @@
 
 * [Available Functions](README.md)
 
-## Group 1
+## Functions
 
-* [Chatbot](group-1/chatbot.md)
+* [Chatbot](functions/chatbot.md)
+* [Calculator](functions/calculator.md)
