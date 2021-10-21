@@ -11,7 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@pgamerx/djs-addon": "github:pgamerx/djs-addon",
     "canvas": "^2.8.0",
     "discord-youtube-api": "^0.1.0",
     "discord.js": "^13.2.0",
