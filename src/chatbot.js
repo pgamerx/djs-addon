@@ -1,5 +1,4 @@
 /** This code is actually OC, believe it or not */
-/** Hey Rahuletto, this is actually OC, I just saw your code structure as I haven't really worked with multiple files in a npm package. I have used a different API as well  */
 const Discord = require("discord.js");
 const fetch = require("node-fetch");
 
@@ -31,6 +30,7 @@ async function chatbot(client, message, options = {}) {
     input = input
       .replace(emoteRegex.exec(daemoji), "")
       .replace(animatedEmoteRegex.exec(daemoji), "");
+      
 /** Regex taken from https://stackoverflow.com/questions/64053658/get-emojis-from-message-discord-js-v12/64064778 */
 
     
