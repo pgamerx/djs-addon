@@ -1,7 +1,6 @@
-/** This isn't my own, This was taken from the internet and tampered with 
+/** This isn't my own, This was taken from the internet and tampered with
  * Rahuletto is the origin creator
-*/
-
+ */
 
 const Discord = require("discord.js");
 
@@ -15,7 +14,7 @@ const math = require("mathjs");
 async function calculator(interaction, options = []) {
   try {
     if (options.slash === true) {
-        let { MessageButton, MessageActionRow } = require("discord.js");
+      let { MessageButton, MessageActionRow } = require("discord.js");
       let button = new Array([], [], [], [], []);
       let row = [];
       let text = [
@@ -43,7 +42,7 @@ async function calculator(interaction, options = []) {
         "0",
         "00",
         "=",
-        "Delete"
+        "Delete",
       ];
       let current = 0;
       if (options.credit === false) {
@@ -68,7 +67,7 @@ async function calculator(interaction, options = []) {
       await interaction
         .followUp({
           embeds: [emb],
-          components: row
+          components: row,
         })
         .then(async (mssg) => {
           const msg = await interaction.fetchReply();
@@ -87,7 +86,7 @@ async function calculator(interaction, options = []) {
             let collect = msg.createMessageComponentCollector({
               filter,
               componentType: "BUTTON",
-              time: time
+              time: time,
             });
 
             collect.on("collect", async (x) => {
@@ -110,7 +109,7 @@ async function calculator(interaction, options = []) {
                 emb1.setDescription("```" + value + "```");
                 await msg.edit({
                   embeds: [emb1],
-                  components: row
+                  components: row,
                 });
               } else if (value.includes("Delete"))
                 return interaction.deleteReply().catch(() => {});
@@ -118,7 +117,7 @@ async function calculator(interaction, options = []) {
               emb1.setDescription("```" + value + "```");
               await msg.edit({
                 embeds: [emb1],
-                components: row
+                components: row,
               });
             });
           }
@@ -203,7 +202,7 @@ async function calculator(interaction, options = []) {
         "0",
         "00",
         "=",
-        "Delete"
+        "Delete",
       ];
       let current = 0;
 
@@ -229,7 +228,7 @@ async function calculator(interaction, options = []) {
       await interaction
         .reply({
           embeds: [emb],
-          components: row
+          components: row,
         })
         .then((msg) => {
           let isWrong = false;
@@ -246,7 +245,7 @@ async function calculator(interaction, options = []) {
             let collect = msg.createMessageComponentCollector({
               filter,
               componentType: "BUTTON",
-              time: time
+              time: time,
             });
 
             collect.on("collect", async (x) => {
@@ -269,7 +268,7 @@ async function calculator(interaction, options = []) {
                 emb1.setDescription("```" + value + "```");
                 await msg.edit({
                   embeds: [emb1],
-                  components: row
+                  components: row,
                 });
               } else if (value.includes("Delete")) {
                 msg.delete();
@@ -278,7 +277,7 @@ async function calculator(interaction, options = []) {
               emb1.setDescription("```" + value + "```");
               await msg.edit({
                 embeds: [emb1],
-                components: row
+                components: row,
               });
             });
           }
