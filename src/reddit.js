@@ -22,7 +22,7 @@ async function reddit(message, options = []) {
   .setImage(url)
   .setFooter(options.footer ?? "Add this to your bot | npm i @pgamerx/djs-addon")
 
-  message.channel.send(embed)
+  message.channel.send({embeds: [embed]})
 }
 
 module.exports = reddit;

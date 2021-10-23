@@ -38,8 +38,6 @@ export type ytSearchOptions = {
   query: string;
   /** Allowed channels: This command would only be used in these channels */
   channels: string[];
-  /** Footer you want to be placed on the embed (OPTIONAL) */
-  footer: string;
   /** Your Youtube v3 API key */
   api_key: string;
 

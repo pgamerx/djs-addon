@@ -26,7 +26,7 @@ Video URL: [Click Here](${video.url})
 .setColor(options.embed_color ?? "RANDOM")
 .setFooter(options.embed_footer ?? "Make your own ytSearch command | npm i @pgamerx/djs-addon")
 
-message/channel.send(embed)
+message/channel.send({embeds: [embed]})
 }
 
 
