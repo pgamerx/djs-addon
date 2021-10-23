@@ -1,5 +1,5 @@
 ---
-description: This is documentation for Calculator function
+description: Documentation for the calculator function
 ---
 
 # Calculator

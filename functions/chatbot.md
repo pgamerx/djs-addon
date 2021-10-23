@@ -1,5 +1,5 @@
 ---
-description: This is documentation for Chatbot function.
+description: Documentation for the Chatbot function
 ---
 
 # Chatbot

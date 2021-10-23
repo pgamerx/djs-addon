@@ -1,3 +1,7 @@
+---
+description: Documentation for Canvas function (used for image manipulation)
+---
+
 # Canvas
 
 ### Example
