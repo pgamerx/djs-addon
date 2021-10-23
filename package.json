@@ -8,8 +8,9 @@
     "main": "main.js",
     "typings": "index.d.ts"
   },
+  "homepage": "https://djs-addon.js.org/",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "canvacord": "^5.2.3",
     "canvas": "^2.8.0",
