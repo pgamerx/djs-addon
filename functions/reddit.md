@@ -21,3 +21,8 @@ title: "Here is a meme" // title of the embed
 footer: "Developed by PGamerX" // footer of the embed.
 })
 ```
+
+### Parameters guide
+
+<table><thead><tr><th>Name</th><th>Type</th><th data-type="checkbox">Required</th></tr></thead><tbody><tr><td>sub_reddit</td><td>String</td><td>true</td></tr><tr><td>channels</td><td>StringArray</td><td>false</td></tr><tr><td>color</td><td>HexColorString</td><td>false</td></tr><tr><td>title</td><td>String</td><td>false</td></tr><tr><td>footer</td><td>String</td><td>false</td></tr></tbody></table>
+

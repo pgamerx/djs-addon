@@ -8,3 +8,4 @@
 * [Calculator](functions/calculator.md)
 * [Canvas](functions/canvas.md)
 * [Reddit](functions/reddit.md)
+* [ytSearch](functions/ytsearch.md)
