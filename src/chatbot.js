@@ -8,7 +8,7 @@ const fetch = require("node-fetch");
  * @param {import('../index').chatbotOptions} options
  */
 
-async function chatbot(client, message, options = {}) {
+async function chatbot(client, message, options = []) {
   if (message.author.bot) return;
   if (options && options.toggle === false) return;
 

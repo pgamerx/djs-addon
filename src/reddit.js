@@ -6,7 +6,7 @@ const randomPuppy = require("random-puppy")
  * @param {import('../index').reddit_options} options
  */
 
-async function reddit(message, options = {}) {
+async function reddit(message, options = []) {
   if (message.author.bot) return;
   if (options && options.toggle === false) return;
   if(!options.channels.includes(message.channel.id)) return

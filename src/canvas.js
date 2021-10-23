@@ -10,7 +10,7 @@ const canvacord = require("canvacord");
  * @param {import('../index').canvas_options} options
  */
 
-async function canvas(message,options){
+async function canvas(message,options = []){
     if(message.author.bot) return
     if(options && options.toggle === false) return
     const array_1 = ["affect", "beautiful", "wanted", "delete", "trigger", "facepalm", "blur", "hitler", "jail", "invert", "jokeOverHead"]  
