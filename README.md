@@ -12,14 +12,14 @@
 - Unique functions like Chatbot, ytSearch, Canvas, Reddit and much more! 
 
 ### Getting started 
-- Check out the complete guide at [This Page]()(Not complete yet)
+- Check out the complete guide at [This Page](https://djs-addon.js.org/)
 
 ### Support/Updates
 * Feel free to join our [Discord server](https://u.pgamerx.com/discord) for updates, any kind of support
 
 ### Important Links
-- ####  Documentation - Documentation is available at [This link]()
-- ####  Support - You can get support in our [Discord Server]()
+- ####  Documentation - Documentation is available at [This link](https://djs-addon.js.org/)
+- ####  Support - You can get support in our [Discord Server](https://u.pgamerx.com/discord)
 - #### Donate - Like what I do? Feel free to [Donate me](https://ko-fi.com/pgamerx)
 
 # Contributing to @pgamerx/djs-addon
@@ -39,10 +39,9 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 
 1. Fork the repo and create your branch from `master`.
 2. If you've added code that should be tested, add tests.
-3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes.
-5. Make sure your code lints.
-6. Issue that pull request!
+3. Ensure the test suite passes.
+4. Make sure your code lints.
+5. Issue that pull request!
 
 ## Any contributions you make will be under the MIT Software License
 In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
