@@ -64,18 +64,18 @@ export type reddit_options = {
 
 export type canvas_options = {
   /** Toggle the canvas */
-  toggle?: boolean,
+  toggle?: boolean;
   /** What type of image manipulation you want */
-  type: string,
+  type: string;
   /** First Image URL (ONLY IF NEEDED)*/
-  image_1: string,
+  image_1: string;
   /** Second Image URL (ONLY IF NEEDED)*/
-  image_2: string,
+  image_2: string;
   /** Third Image URL (ONLY IF NEEDED)*/
-  image_3: string,
+  image_3: string;
   /** Text Input (ONLY IF NEEDED) */
-  text: string
- }
+  text: string;
+};
 export type calc_options = {
   /** The Embed Color of the calculator embed, default: #075FFF */
   embedColor: HexColorString;
@@ -110,4 +110,3 @@ export declare function canvas(
   message: Message,
   options?: canvas_options
 ): Promise<void>;
-
